@@ -1,0 +1,23 @@
+{
+  "name": "helleborus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "commands": "node src/deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "@discordjs/voice": "^0.18.0",
+    "@distube/ytdl-core": "^4.15.9",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "yt-search": "^2.6.1",
+    "ytpl": "^2.3.0"
+  }
+}
