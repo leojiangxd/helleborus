@@ -63,8 +63,6 @@ client.once('ready', () => {
 });
 
 client.on('voiceStateUpdate', (oldState, newState) => {
-  console.log(oldState)
-  console.log(newState)
   if (oldState.member.id === client.user.id || newState.member.id === client.user.id) {
     if (oldState.channelId && !newState.channelId) {
       console.log('>>> Bot was disconnected from voice channel!');
